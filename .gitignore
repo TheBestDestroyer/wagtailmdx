@@ -1,0 +1,4 @@
+/mdxeditor-bundled/dist
+/wagtailmdx/wagtailmdx/static/**/
+/wagtailmdx/dist/
+/wagtailmdx/wagtailmdx.egg-info/

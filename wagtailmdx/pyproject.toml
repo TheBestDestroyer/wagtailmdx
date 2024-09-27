@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wagtailmdx"
+version = "0.1"
+dependencies = [
+    "Django>=5",
+    "wagtail>5.2"
+]
+description = "Ads MDXEditor as widget to wagtail"
+readme="readme.md"
+requires-python = ">= 3.10"
+authors = [
+    {name = "Julius Nowakowski", email = "julino.development@online.de"},
+]
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Wagtail",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+]
+
+[tool.setuptools.package-data]
+"wagtailmdx" = [
+    "static/**/*",
+    "../oss-licenses.json"
+]
