@@ -9,7 +9,7 @@ dependencies = [
     "Django>=5",
     "wagtail>5.2"
 ]
-description = "Ads MDXEditor as widget to wagtail"
+description = "Adds MDXEditor as widget to wagtail"
 readme="readme.md"
 requires-python = ">= 3.10"
 authors = [
