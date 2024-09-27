@@ -12,9 +12,9 @@ module.exports = {
         events: {
           onEnd: {
             copy: [
-                { source: './dist/*.js', destination: '../wagtailmdx/wagtailmdx/static/js' },
-                { source: './dist/*.txt', destination: '../wagtailmdx/wagtailmdx/static/js' },
-                { source: './dist/*.css', destination: '../wagtailmdx/wagtailmdx/static/css' },
+                { source: './dist/*.js', destination: '../wagtailmdx/wagtailmdx/static/wagtailmdx/js' },
+                { source: './dist/*.txt', destination: '../wagtailmdx/wagtailmdx/static/wagtailmdx/js' },
+                { source: './dist/*.css', destination: '../wagtailmdx/wagtailmdx/static/wagtailmdx/css' },
                 { source: './dist/oss-licenses.json', destination: '../wagtailmdx/oss-licenses.json' },
               ],
           }
