@@ -61,7 +61,7 @@ class MDXEditorController extends Controller {
                         )
                     }),
                     jsxPlugin({jsxComponentDescriptors}),
-                    diffSourcePlugin({ diffMarkdown: 'An older version', viewMode: 'rich-text' })
+                    diffSourcePlugin({ diffMarkdown: initMarkdown || '', viewMode: 'rich-text' })
                 ]}
             />
         );
